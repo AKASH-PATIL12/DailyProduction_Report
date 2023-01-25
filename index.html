@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candour</title>
+
+    <!-- native css and js file link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- native css and js file link -->
+
+    <!-- Bootstrap cdn link -->
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <h1>Candour</h1>
+        </div>
+        <div class="click">
+            <button>Add M/C</button>
+        </div>
+    </nav>
+    <!-- NAVBAR CLOSED -->
+
+    <div class="list">
+        <!-- SERIAL NUMBER -->
+        <div class="srNo">
+            1.
+        </div>
+
+        <!-- DROPDOWN -->
+        <div class="drop">
+        <form action="/action_page.php">
+            <select id="cars" name="cars">
+              <option value="volvo">E-120(9)</option>
+              <option value="saab">E-600</option>
+              <option value="fiat">Y-560</option>
+              <option value="audi">Y-650</option>
+            </select>
+          </form>
+        </div>
+        <div class="input">
+        <span>
+            <label for="partN">Part Name :</label>
+            <input type="text" name="partN">
+        </span>
+
+        <span>
+            <label for="color">color :</label>
+            <input type="text" name="color">
+        </span>
+
+        <span>
+            <label for="counter">counter :</label>
+            <input type="number" name="counter">
+        </span>
+
+        <span>
+            <label for="reject">Rejection :</label>
+            <input type="number" name="reject">
+        </span>
+        
+        <span>
+            <label for="ok">ok :</label>
+            <input type="number" name="ok" disabled>
+        </span>
+         
+        
+        <button>SUBMIT</button>
+    </div>
+</div>
+</body>
+</html>
